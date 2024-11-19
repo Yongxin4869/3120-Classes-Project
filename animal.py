@@ -14,6 +14,9 @@ class Animal:
     def eat(self):
         return f"The {self.species} is eating."
 
+    def sleep(self):
+    return f"The {self.species} is sleeping."
+
 my_animal = Animal("Lion", 3, "Golden", "Savanna")
 print("Species:",my_animal.species)   
 print("Age:",my_animal.age)      
@@ -21,4 +24,5 @@ print("Color:",my_animal.color)
 print("Habitat:",my_animal.habitat)   
 print(my_animal.sound())  
 print(my_animal.move())        
-print(my_animal.eat())          
+print(my_animal.eat())
+print(my_animal.sleep())
